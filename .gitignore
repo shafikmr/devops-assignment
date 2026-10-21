@@ -1,0 +1,11 @@
+# Private EC2 keys — never commit these
+*.pem
+
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Local variable files can contain sensitive values
+*.tfvars
